@@ -106,13 +106,13 @@ nav {
 
 .nav__link--primary:after {
     content: "";
-    width: 0;
-    height: 0;
     transition: color 300ms ease;
+    opacity: 0;
 }
 
 .nav__link--primary:hover:after {
     background-color: #5a12e6;
+    opacity: 1;
 }
 
 
